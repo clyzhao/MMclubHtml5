@@ -12,14 +12,13 @@
             <div class="navbar">
                 <div class="navcon">
                     <a href="#" class="index">
-                        <img src="" class="logo">
                         <span>MMclub</span>
-                        <div class="cls"></div>
+                        
                     </a>
                     <div class="cls"></div>
                     <div class="about">
                     <a href="http://mmclub.github.io/" class="gitcon">
-                        <img src="img/github.png" class="git">
+                        <span>github</span>
                     </a>
                     <a href="http://join.nupter.org/" class="join">
                         <span>Join us</span>
@@ -29,10 +28,10 @@
                 </div>
             </div>
             <div class="splash">
-                
+                <img src="img/img003.png" class="text">
             </div>
             <div class="maincontent">
-            <div class="memtitle"><h2>WHAT WE DO</h2></div>
+            <div class="memtitle"><h2>INTRODUCTION</h2></div>
             <div class="widewrapper">
         <div class="container">
             <div class="row features">
@@ -104,8 +103,9 @@
         <div class="description">
                         <h3>林翔宇</h3>
                         <p>
-                             喝酒、骑机车、读书、改Bug  <a href="http://linxiangyu.org"><br> 个人主页</a>
+                             喝酒、骑机车、读书、改Bug 
                         </p>
+                        <p> <a href="http://linxiangyu.org"><br> 个人主页</a></p>
                         <div class="social-box">
                         </div>                    
                     </div>
@@ -273,26 +273,110 @@
                         </div>                    
                     </div>
     </div>
-
-
     </div>
+
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- <div class="memtitle"><h2>ACTIVITIES</h2></div>
+    <div class="actcon">
+    <div class="actswicon">
+        <div class="act_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="http://www.nupter.org/img/photo/man.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://www.nupter.org/img/photo/man.jpg">
+                </div>
             </div>
+        </div>
+        </div>
+    </div> -->
+
+  
+</div>
+
+</div>
+<footer class="widewrapper footer">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-sm-3">
+                    <h4>关于我们</h4>
+                    <p>本站由南邮移动互联网俱乐部Web组开发维护。我们是一群热爱生活，编程和设计的年轻人。欢迎有兴趣的同学<a href="mailto:lxyweb@gmail.com">联系交流</a></p>
+                </div>
+            <!--     <div class="col-sm-3">
+                    <div class="indent30">
+                    <h4>Recent News</h4>
+                    <ul class="grove-list">
+                        <li><a href="#">Hello World Shatana</a></li>
+                        <li><a href="#">Foobar in the sky flying so high</a></li>
+                        <li><a href="#">Wild things happening, all around</a></li>
+                        <li><a href="#">No time for that, no time for that</a></li>
+                    </ul>
+                    </div>
+                </div> -->
+                
+                <div class="col-sm-3">
+                    <h4>关于 移动互联网俱乐部</h4>
+                    <p>南邮移动互联网俱乐部是南京邮电大学一个年轻的，面向移动互联网行业创新创业的大学生技术社团。</p>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <h4>联系方式</h4>
+                    <p>Address：江苏省南京市文苑路9号南京邮电大学仙林校区  大学生活动中心1楼</p>
+                    <p>Phone: +86 183-5192-3762</p>
+                    <p>Email: <a href="mailto:wangyi@nupter.org">wangyi@nupter.org</a></p>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="showroom-item col-sm-6">
+                        <div class="image">
+                            <img src="http://www.nupter.org/img/other/weixin.jpg" class="img-responsive" alt="Portfolio Image">
+                            <a class="overlay">
+                                <div class="name">微信公众号</div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            <!--     <div class="col-sm-3">
+                    <h4>Connect</h4>
+                    <a href="#" class="glyphicons facebook"><i></i></a>
+                    <a href="#" class="glyphicons twitter"><i></i></a>
+                    <a href="#" class="glyphicons google_plus"><i></i></a>
+                    <a href="#" class="glyphicons linked_in"><i></i></a>
+                </div>    -->         
             </div>
+        </div>
+    </footer>
 <script src="js/swiper.min.js"></script>
 <script>
 	var mySwiper=new Swiper('.swiper-container', {
          loop:true,
          autoplay:5000,
-         width:1140,
+         //width:1140,
          height:380,
          nextButton: '.swiper-button-next',
          prevButton: '.swiper-button-prev',
          keyboardControl:true,
          setWrapperSize:false,
          roundLengths:true,
-         })
+         autoplayDisableOnInteraction:false,
+         });
+    // var act_swiper=new Swiper('.act_swiper', {
+    //     loop:true,
+    //     autoplay:3000,
+    //     direction:'vertical',
+    //     height:400,
+    //     keyboardControl:true,
+    //      setWrapperSize:false,
+    //      roundLengths:true,
+    //      autoplayDisableOnInteraction:false,
+    // })
 </script>
 </body>
 
