@@ -245,6 +245,76 @@ a.index:hover{
 	overflow: hidden;
 	margin: 50px auto;
 }
+.svgcon{
+  box-shadow: inset 1px 3px 1px -2px #d4d3d3;
+  position: relative;
+}
+svg{
+  
+}
+.planePath {
+  stroke: #69696C;
+  stroke-width: .1%;
+  stroke-width: .5%;
+  stroke-dasharray: 1% 2%;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.fil1 {
+  fill: #D9DADA;
+}
+
+.fil2 {
+  fill: #C5C6C6;
+}
+
+.fil4 {
+  fill: #9D9E9E;
+}
+
+.fil3 {
+  fill: #AEAFB0;
+}
+.achievement{
+  /*display: none;*/
+  opacity: 0;
+}
+.achievement1{
+  position: absolute;
+  left: 2%;
+  top: 35px;
+  border: 1px solid red;
+  width: 15%;
+}
+.achievement2{
+  position: absolute;
+  left: 15%;
+  top: 190px;
+  border: 1px solid red;
+  width: 13%;
+}
+.achievement3{
+  position: absolute;
+  left: 31%;
+  top: 40px;
+  border: 1px solid red;
+  width: 15%;
+}
+.achievement4{
+  position: absolute;
+  left: 55%;
+  top: 90px;
+  border: 1px solid red;
+  width: 13%;
+}
+.achievement5{
+  position: absolute;
+  left: 82%;
+  top: 100px;
+  border: 1px solid red;
+  width: 13%;
+}
 .widewrapper.footer {
   background-color: #293540;
   color: #ffffff;
@@ -255,6 +325,7 @@ a.index:hover{
 footer {
   font-size: 13px;
   line-height: 20px;
+  overflow: hidden;
 }
 .container {
   max-width: 1140px;
@@ -338,4 +409,23 @@ footer h4 {
 }
 .col-sm-12 {
   width: 100%;
+}
+
+@keyframes show{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@-webkit-keyframes show{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
 }
