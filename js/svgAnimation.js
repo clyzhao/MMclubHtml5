@@ -7,10 +7,10 @@ function animationStart(){
 }
 
 function divShow(){
-  for(var i=0; i<5; i++){
+  for(var i=0; i<8; i++){
     var achievementDiv=document.getElementsByClassName('achievement')[i];
     // achievementDiv.style.animation="show 5s ease-out";
-    achievementDiv.style.WebkitAnimation="show 5s ease-out"+" "+i+"s";
+    achievementDiv.style.WebkitAnimation="show 3s ease-out "+0.55*i+"s";
     achievementDiv.style.WebkitAnimationFillMode="forwards";
   }
 }
@@ -26,7 +26,7 @@ function divShow(){
 
 window.onscroll=function(){
   var height=document.documentElement.scrollTop||document.body.scrollTop;
-  if(height>=1352){
+  if(height>=1300){
     animationStart();
     window.onscroll=null;
   }else{}

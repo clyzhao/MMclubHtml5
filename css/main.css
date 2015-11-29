@@ -286,12 +286,12 @@ svg{
 .achievement1{
   position: absolute;
   left: 2%;
-  top: 35px;
+  top: 65px;
   width: 15%;
 }
 .achievement2{
   position: absolute;
-  left: 15%;
+  left: 10%;
   top: 190px;
   width: 13%;
 }
@@ -303,14 +303,32 @@ svg{
 }
 .achievement4{
   position: absolute;
-  left: 55%;
-  top: 90px;
+  left: 30%;
+  top: 300px;
   width: 13%;
 }
 .achievement5{
   position: absolute;
-  left: 82%;
+  left: 58%;
+  top: 200px;
+  width: 13%;
+}
+.achievement6{
+  position: absolute;
+  left: 50%;
   top: 100px;
+  width: 13%;
+}
+.achievement7{
+  position: absolute;
+  left: 80%;
+  top: 130px;
+  width: 13%;
+}
+.achievement8{
+  position: absolute;
+  left: 85%;
+  top: 230px;
   width: 13%;
 }
 .widewrapper.footer {
