@@ -10,7 +10,7 @@ function divShow(){
   for(var i=0; i<8; i++){
     var achievementDiv=document.getElementsByClassName('achievement')[i];
     // achievementDiv.style.animation="show 5s ease-out";
-    achievementDiv.style.WebkitAnimation="show 3s ease-out "+0.55*i+"s";
+    achievementDiv.style.WebkitAnimation="show 1.5s ease-out "+0.37*i+"s";
     achievementDiv.style.WebkitAnimationFillMode="forwards";
   }
 }
