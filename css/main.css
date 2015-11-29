@@ -279,40 +279,38 @@ svg{
 .achievement{
   /*display: none;*/
   opacity: 0;
+  color: #fff;
+  background: rgba(3,3,3,.5);
+  border-radius: 5px;
 }
 .achievement1{
   position: absolute;
   left: 2%;
   top: 35px;
-  border: 1px solid red;
   width: 15%;
 }
 .achievement2{
   position: absolute;
   left: 15%;
   top: 190px;
-  border: 1px solid red;
   width: 13%;
 }
 .achievement3{
   position: absolute;
   left: 31%;
   top: 40px;
-  border: 1px solid red;
   width: 15%;
 }
 .achievement4{
   position: absolute;
   left: 55%;
   top: 90px;
-  border: 1px solid red;
   width: 13%;
 }
 .achievement5{
   position: absolute;
   left: 82%;
   top: 100px;
-  border: 1px solid red;
   width: 13%;
 }
 .widewrapper.footer {
@@ -428,4 +426,3 @@ footer h4 {
   }
 }
 
-}
